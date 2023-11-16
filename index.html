@@ -14,13 +14,13 @@ body {
 </head>
 <body>
 <div>
-    <div onClick="z(a1,a2)" style="width: 100px;height: 50px;background-color: aquamarine;text-align: center;line-height: 50px;border-radius: 10px 10px 0 0;cursor: pointer"><strong id="a2">点击下拉</strong></div>
+    <div id="a3" onClick="z(a1,a2,a3)" style="width: 100px;height: 50px;background-color: aquamarine;text-align: center;line-height: 50px;border-radius: 10px;cursor: pointer"><strong id="a2">点击下拉</strong></div>
     <div id="a1" style="width: 100px;height: 0;background-color: #3C584F;border-radius: 0 0 10px 10px;overflow: hidden; transition: height 0.9s ease;font-size: 60px;display: flex;justify-content: center;align-items: center;cursor: default"><strong>你<br>
         真<br>
         菜</strong></div>
 </div>
 <script>
-    function z(a,b){if(a.style.height==="400px"){a.style.height="0px";b.innerText="点击下拉"}else{a.style.height="400px";b.innerText="点击收回"}}
+    function z(a,b,c){if(a.style.height==="400px"){a.style.height="0px";b.innerText="点击下拉";setTimeout(function(){c.style.borderRadius="10px"},830)}else{a.style.height="400px";b.innerText="点击收回";c.style.borderRadius="10px 10px 0 0"}}
     </script>
 </body>
 </html>
