@@ -1,101 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>模板</title>
+<title>无标题文档</title>
 <style>
 body {
     margin: 0;
-    background-color: antiquewhite
-}
-p {
-    margin: 0;
-}
-.djhys {
-    background-color: #F48DAD;
-}
-.zyxxk {
-    flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    color: #F3F3F3;
-    text-shadow: 1px 1px 2px rgba(56, 56, 56, 0.54);
-    height: 95%;
-    border-radius: 50px;
-    margin: 0 2px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease
-}
-.txdxxk {
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-    color: aqua
+    align-items: center
 }
 </style>
 </head>
 <body>
-<div style="width: 100%; height: 120px; background-color: #555555; margin: 0 auto; display: flex; justify-content: center; align-items: center; position: fixed;z-index: 1"> <img src="https://freeimghost.net/images/2023/10/18/b934f6c889c1e042c7d036298a5bd6bf1696300285362_CocDHP-gigapixel-scale-6_00x.jpeg" style="width: 90px;background-color: aliceblue;border-radius: 50%;position: absolute;right: 5%;overflow: hidden;border: 2px solid #00FFF8;cursor: pointer" onClick="djtx()">
-  <div id="txxxk" style="width: 180px;background-color: #FFFFFF;border: 2px solid #C7C7C7;position: absolute;right: 4.8%;top:100%; z-index: 2;display: none">
-    <div class="txdxxk"><a href="https://fxg.jinritemai.com/ffa/mshop/homepage/index?btm_ppre=a2427.b7311.c0.d0&btm_pre=a2427.b76571.c4158.header_new_menu_0&btm_show_id=67e031f7-f17b-4079-a0e8-f473ed0b469d" style="text-decoration: none" target="_blank">抖店后台</a></div>
-    <hr style="margin: 0;border-top: 1px solid #B8B8B8">
-    <div class="txdxxk">按钮2</div>
-    <hr style="margin: 0;border-top: 1px solid #B8B8B8">
-    <div class="txdxxk">收起</div>
-  </div>
-  <img src="https://freeimghost.net/images/2023/10/19/huashuorog-logo-35119228_1-gigapixel-scale-16_00x.jpeg" style="width: 160px;background-color: #555555;position: absolute;left: 5%">
-  <p style="font-size: 70px; color: aqua; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.40)">DASHU -&gt;- <strong id="TBWB"></strong></p>
+<div>
+    <div onClick="z(a1,a2)" style="width: 100px;height: 50px;background-color: aquamarine;text-align: center;line-height: 50px;border-radius: 10px 10px 0 0;cursor: pointer"><strong id="a2">点击下拉</strong></div>
+    <div id="a1" style="width: 100px;height: 0;background-color: #3C584F;border-radius: 0 0 10px 10px;overflow: hidden; transition: height 0.9s ease;font-size: 60px;display: flex;justify-content: center;align-items: center;cursor: default"><strong>你<br>
+        真<br>
+        菜</strong></div>
 </div>
-<div style="width: 100%; height: 60px; background-color: #FFFFFF; box-shadow: 0 2px 5px rgba(29, 29, 29, 0.29); display: flex; justify-content: center; align-items: center; margin-top: 120px; position: fixed">
-  <div style="width: 90%; height: 50px; background-color: #00FFF8; border-radius: 50px; border: 2px solid #9F9F9F; display: flex; justify-content: space-between; align-items: center">
-    <div class="zyxxk" onClick="djgbys(this,'主页','zy')" id="zydid"><strong>主页</strong></div>
-    <div class="zyxxk" onClick="djgbys(this,'下载','xz')" id="xzdid"><strong>下载</strong></div>
-    <div class="zyxxk" onClick="djgbys(this,'服务','fu')" id="fudid"><strong>服务</strong></div>
-    <div class="zyxxk" onClick="djgbys(this,'支持','zc')" id="zcdid"><strong>支持</strong></div>
-  </div>
-</div>
-<div style="width: 100%; height: 180px"></div>
-<div id="zynr" style="display: none;">
-  <h1 style="margin-left: 5%;width: 43%">欢迎来到我们的灯光世界！</h1>
-  <p style="margin-left: 5%;width: 43%">&emsp;&emsp;我们是一家致力于为您的家居、工作空间和商业场所提供高品质照明解决方案的公司。无论您是在寻找舒适的家庭照明、节能环保的LED照明，还是需要为您的商业项目找到合适的灯具，我们都能满足您的需求。</p>
-  <img src="https://freeimghost.net/images/2023/10/19/10349582_115928042000_2.jpeg" style="width: 43%;margin-left: 5%;margin-top: 1%;border-radius: 10px">
-  <div style="margin-left: 4%; width: 43%; height: 517px; background-color: aliceblue;display: inline-block;border-radius: 10px"></div>
-</div>
-<div id="xznr" style="display: none;"> 下载内容 </div>
-<div id="funr" style="display: none;"> 服务内容 </div>
-<div id="zcnr" style="display: none;"> 支持内容 </div>
-<p style="margin-top: 1000px; text-align: center">此网站所有资源由作者 @DASHU 互联网收集<br>
-  邮箱：2079987065@qq.com<br>
-  如有侵权请联系删除</p>
 <script>
-        let jlancsys = null;
-		var sbtxk = false;
-
-        function djgbys(A, B, C) {
-            if (jlancsys !== null) {
-                jlancsys.classList.remove("djhys");
-            }
-            A.classList.add("djhys");
-            jlancsys = A;
-            var hqbtid = document.getElementById("TBWB");
-            hqbtid.innerHTML = B;
-            document.getElementById("zynr").style.display = "none";
-            document.getElementById("xznr").style.display = "none";
-            document.getElementById("funr").style.display = "none";
-            document.getElementById("zcnr").style.display = "none";
-            document.getElementById(C + "nr").style.display = "block";
-        }
-		function djtx() {
-			document.getElementById("txxxk").style.display = 'block';
-    sbtxk = true;
-  }
-
-		document.addEventListener("click", function (event) {
-  var txxxk = document.getElementById("txxxk");
- if (!sbtxk) {txxxk.style.display = 'none';}sbtxk = false;});
-        window.addEventListener("DOMContentLoaded", function() { zydid.click() });
+    function z(a,b){if(a.style.height==="400px"){a.style.height="0px";b.innerText="点击下拉"}else{a.style.height="400px";b.innerText="点击收回"}}
     </script>
 </body>
 </html>
